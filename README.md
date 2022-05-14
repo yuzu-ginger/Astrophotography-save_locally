@@ -40,7 +40,7 @@ Date:  # input the date
   $ gem install open-uri
   ```
 3. Chenge `ENV['NASA_API_KEY']` to your API key
-4. Chenge `{YOUR_PATH}` to the path of the directory you want to save
+4. Chenge `{YOUR_PATH}` to the path of the directory you want to save the images
 
 ## Note
 If the version of ruby is less than 3, change `URI.open` to `open`
