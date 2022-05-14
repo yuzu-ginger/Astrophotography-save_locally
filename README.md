@@ -37,7 +37,7 @@ Date:  # input the date
   <br>Or execute the command<br>
   ```
   $ gem install nasa_apod
-  $ gem install open_uri
+  $ gem install open-uri
   ```
 3. Chenge `ENV['NASA_API_KEY']` to your API key
 4. Chenge `{YOUR_PATH}` to the path of the directory you want to save
