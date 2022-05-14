@@ -17,8 +17,7 @@ today = Date.today - 1   # NASA(US)との時差のため昨日の日付にする
 url = nasa(today, "url")
 title = nasa(today, "title")
 if url =~ /jpg/
-  file = "{YOUR_PATH}#{today}.jpg"
-  p file
+  file = "{PASS}#{today}.jpg"
   URI.open(file, 'wb') do |output|
     URI.open(url) do |data|
       output.puts(data.read)
