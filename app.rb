@@ -15,7 +15,7 @@ data = nasa(today)
 url = data[0]
 title = data[1]
 if url =~ /jpg/
-  file = "/Users/20241184/OneDrive - 京都女子大学/画像/nasa_images/#{today}.jpg"
+  file = "{PATH}#{today}.jpg"
   URI.open(file, 'wb') do |output|
     URI.open(url) do |data|
       output.puts(data.read)
